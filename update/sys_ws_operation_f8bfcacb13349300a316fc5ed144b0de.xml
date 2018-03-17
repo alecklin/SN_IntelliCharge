@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Receive Notification</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	
+	
+	var msg = "";
+
+	
+	
+	gs.eventQueue('x_snc_intellicharg.intellicharge.notific', '' , '', msg);
+	
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_intellicharg/intellicharge_notification</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-03-16 23:22:01</sys_created_on>
+        <sys_id>f8bfcacb13349300a316fc5ed144b0de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Receive Notification</sys_name>
+        <sys_package display_value="IntelliCharge" source="x_snc_intellicharg">e31d2f7c4f341fc08c81efd18110c70e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntelliCharge">e31d2f7c4f341fc08c81efd18110c70e</sys_scope>
+        <sys_update_name>sys_ws_operation_f8bfcacb13349300a316fc5ed144b0de</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-03-16 23:39:08</sys_updated_on>
+        <web_service_definition display_value="intellicharge_notification">e26f4acb13349300a316fc5ed144b0b6</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

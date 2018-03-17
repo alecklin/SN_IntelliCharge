@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_snc_intellicharg/intellicharge_notification</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>intellicharge_notification</name>
+        <namespace>x_snc_intellicharg</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>intellicharge_notification</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-03-16 23:21:16</sys_created_on>
+        <sys_id>e26f4acb13349300a316fc5ed144b0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>intellicharge_notification</sys_name>
+        <sys_package display_value="IntelliCharge" source="x_snc_intellicharg">e31d2f7c4f341fc08c81efd18110c70e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntelliCharge">e31d2f7c4f341fc08c81efd18110c70e</sys_scope>
+        <sys_update_name>sys_ws_definition_e26f4acb13349300a316fc5ed144b0b6</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-03-16 23:21:16</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
