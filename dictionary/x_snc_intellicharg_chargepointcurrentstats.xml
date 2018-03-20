@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ChargePointCurrentStats" max_length="40" name="x_snc_intellicharg_chargepointcurrentstats" type="collection">
+        <element label="availCount" max_length="40" name="availcount" type="integer"/>
+        <element label="availCountOld" max_length="40" name="availcountold" type="integer"/>
+        <element label="init" max_length="40" name="init" type="integer"/>
+        <element label="inuseCount" max_length="40" name="inusecount" type="integer"/>
+        <element label="inuseCountOld" max_length="40" name="inusecountold" type="integer"/>
+        <element label="percentAvail" max_length="40" name="percentavail" type="string"/>
+        <element label="percentChangeAvailFromOld" max_length="40" name="percentchangeavailfromold" type="string"/>
+        <element label="percentChangeAvailOfTotal" max_length="40" name="percentchangeavailoftotal" type="string"/>
+        <element label="totalCount" max_length="40" name="totalcount" type="integer"/>
+        <element label="unknownCount" max_length="40" name="unknowncount" type="integer"/>
+        <element label="unknownCountOld" max_length="40" name="unknowncountold" type="integer"/>
+    </element>
+</database>

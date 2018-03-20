@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="unknowncount" label="unknownCount" language="en" table="x_snc_intellicharg_chargepointcurrentstats">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>unknowncount</element>
+            <help/>
+            <hint/>
+            <label>unknownCount</label>
+            <language>en</language>
+            <name>x_snc_intellicharg_chargepointcurrentstats</name>
+            <plural>unknownCounts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chowie.lin</sys_created_by>
+            <sys_created_on>2018-03-20 04:15:07</sys_created_on>
+            <sys_id>50af2acc13411700a316fc5ed144b0e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>unknownCount</sys_name>
+            <sys_package display_value="IntelliCharge" source="x_snc_intellicharg">e31d2f7c4f341fc08c81efd18110c70e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntelliCharge">e31d2f7c4f341fc08c81efd18110c70e</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_intellicharg_chargepointcurrentstats_unknowncount_en</sys_update_name>
+            <sys_updated_by>chowie.lin</sys_updated_by>
+            <sys_updated_on>2018-03-20 04:15:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

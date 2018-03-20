@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_intellicharg_chargepointcurrentstats</description>
+        <name>x_snc_intellicharg_chargepointcurrentstats</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>chowie.lin</sys_created_by>
+        <sys_created_on>2018-03-20 04:09:35</sys_created_on>
+        <sys_id>035ee28c13411700a316fc5ed144b016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_intellicharg_chargepointcurrentstats</sys_name>
+        <sys_package display_value="IntelliCharge" source="x_snc_intellicharg">e31d2f7c4f341fc08c81efd18110c70e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntelliCharge">e31d2f7c4f341fc08c81efd18110c70e</sys_scope>
+        <sys_update_name>sys_security_acl_035ee28c13411700a316fc5ed144b016</sys_update_name>
+        <sys_updated_by>chowie.lin</sys_updated_by>
+        <sys_updated_on>2018-03-20 04:09:35</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

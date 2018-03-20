@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ChargePointPrediction" max_length="40" name="x_snc_intellicharg_chargepointprediction" type="collection">
+        <element label="dateStr" max_length="255" name="datestr" type="string"/>
+        <element label="durationStr" max_length="255" name="durationstr" type="string"/>
+        <element label="predictionType" max_length="255" name="predictiontype" type="string"/>
+    </element>
+</database>

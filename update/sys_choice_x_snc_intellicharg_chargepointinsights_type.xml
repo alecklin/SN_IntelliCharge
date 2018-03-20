@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_snc_intellicharg_chargepointinsights" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>morning</label>
+            <language>en</language>
+            <name>x_snc_intellicharg_chargepointinsights</name>
+            <sequence/>
+            <sys_created_by>chowie.lin</sys_created_by>
+            <sys_created_on>2018-03-20 04:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2781fe0013811700a316fc5ed144b017</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chowie.lin</sys_updated_by>
+            <sys_updated_on>2018-03-20 04:23:38</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>noon</label>
+            <language>en</language>
+            <name>x_snc_intellicharg_chargepointinsights</name>
+            <sequence/>
+            <sys_created_by>chowie.lin</sys_created_by>
+            <sys_created_on>2018-03-20 04:25:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4802324013811700a316fc5ed144b000</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chowie.lin</sys_updated_by>
+            <sys_updated_on>2018-03-20 04:25:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>afternoon</label>
+            <language>en</language>
+            <name>x_snc_intellicharg_chargepointinsights</name>
+            <sequence/>
+            <sys_created_by>chowie.lin</sys_created_by>
+            <sys_created_on>2018-03-20 04:22:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40413e0013811700a316fc5ed144b026</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chowie.lin</sys_updated_by>
+            <sys_updated_on>2018-03-20 04:22:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>allday</label>
+            <language>en</language>
+            <name>x_snc_intellicharg_chargepointinsights</name>
+            <sequence/>
+            <sys_created_by>chowie.lin</sys_created_by>
+            <sys_created_on>2018-03-20 04:23:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e61be0013811700a316fc5ed144b09b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chowie.lin</sys_updated_by>
+            <sys_updated_on>2018-03-20 04:23:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_snc_intellicharg_chargepointinsights</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chowie.lin</sys_created_by>
+            <sys_created_on>2018-03-20 04:22:13</sys_created_on>
+            <sys_id>cc413e0013811700a316fc5ed144b0d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="IntelliCharge" source="x_snc_intellicharg">e31d2f7c4f341fc08c81efd18110c70e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntelliCharge">e31d2f7c4f341fc08c81efd18110c70e</sys_scope>
+            <sys_update_name>sys_choice_x_snc_intellicharg_chargepointinsights_type</sys_update_name>
+            <sys_updated_by>chowie.lin</sys_updated_by>
+            <sys_updated_on>2018-03-20 04:22:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

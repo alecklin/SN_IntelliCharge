@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ChargePointInsights" max_length="40" name="x_snc_intellicharg_chargepointinsights" type="collection">
+        <element label="dayOfWeek" max_length="40" name="dayofweek" type="integer"/>
+        <element label="endHourOfDay" max_length="40" name="endhourofday" type="integer"/>
+        <element label="endMinOfHour" max_length="40" name="endminofhour" type="integer"/>
+        <element label="Msg" max_length="40" name="msg" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="startHourOfDay" max_length="40" name="starthourofday" type="integer"/>
+        <element label="startMinOfHour" max_length="40" name="startminofhour" type="integer"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="afternoon" value="2"/>
+                <element label="allday" value="3"/>
+                <element label="morning" value="0"/>
+                <element label="noon" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>
