@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_schedule_maintenance">
+    <cmn_schedule_maintenance action="INSERT_OR_UPDATE">
+        <applies_to>cmdb_ci_service</applies_to>
+        <condition/>
+        <description>SNOW Santa Clara EV parking ChargePoint charge port availability schedule</description>
+        <document/>
+        <document_key/>
+        <name>chargepoint availability schedule</name>
+        <parent/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_schedule_maintenance</sys_class_name>
+        <sys_created_by>chowie.lin@snc</sys_created_by>
+        <sys_created_on>2018-03-20 04:48:07</sys_created_on>
+        <sys_id>04f6f20413811700a316fc5ed144b04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chargepoint availability schedule</sys_name>
+        <sys_package display_value="IntelliCharge" source="x_snc_intellicharg">e31d2f7c4f341fc08c81efd18110c70e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntelliCharge">e31d2f7c4f341fc08c81efd18110c70e</sys_scope>
+        <sys_update_name>cmn_schedule_maintenance_04f6f20413811700a316fc5ed144b04c</sys_update_name>
+        <sys_updated_by>chowie.lin@snc</sys_updated_by>
+        <sys_updated_on>2018-03-20 04:48:07</sys_updated_on>
+        <time_zone>US/Pacific</time_zone>
+        <type>maintenance</type>
+    </cmn_schedule_maintenance>
+</record_update>
